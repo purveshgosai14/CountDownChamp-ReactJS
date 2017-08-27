@@ -24,7 +24,6 @@ leading0(num){
 return num < 10 ? '0' + num : num;
     }
 
-
   getTimeUntil(deadline){
     const time = Date.parse(deadline) - Date.parse(new Date());
     const seconds = Math.floor((time/1000) % 60);
@@ -47,5 +46,6 @@ return num < 10 ? '0' + num : num;
     }
 
 }
+
 
 export default Clock;
