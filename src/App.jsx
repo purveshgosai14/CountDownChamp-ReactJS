@@ -11,9 +11,11 @@ class App extends Component {
             newDeadline: ''
         }
     }
+    
 changeDeadline(){
         this.setState({deadline:this.state.newDeadline})
 }
+    
     render() {
         return (
             <div className="App">
@@ -33,10 +35,13 @@ changeDeadline(){
                 <Button onClick={() => this.changeDeadline()}>
                     Submit
                 </Button>
+                
             </Form>
+                
             </div>
         )
     }
 }
+
 
 export default App;
