@@ -15,7 +15,7 @@ body{
 
 .Clock-days, .Clock-hours, .Clock-minutes, .Clock-seconds {
     display: inline;
-    margin: 5px;
+    margin: 6px;
 }
 
 .Deadline-input{
