@@ -1,3 +1,7 @@
+Open this app here, by clicking on following link:
+
+http://purveshgosai14.github.io/CountDownChamp-ReactJS
+
 *** Follow the instruction for React App***
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
